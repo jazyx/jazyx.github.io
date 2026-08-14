@@ -1,0 +1,80 @@
+["lives with4", "look after2", "making a4", "keep a3", "completely3", "flapping7", "gripping5", "opposite2", "notebook2", "balcony3", "protect3", "highest2", "flapped7", "doorway6", "russian7", "gripped4", "quickly2", "against2", "afraid2", "finger2", "turned2", "canada7", "ground3", "pillow2", "pushed2", "jumped2", "trying2", "index5", "crows7", "wings3", "round2", "quiet2", "stood2", "claws7", "rich2", "hero3", "loud2", "onto3", "hurt2", "feed3", "away2", "crow7", "such2", "high2", "top2", "tin3"]
+
+
+A27 types / 10 tokens 
+6.03% / 3.73% 
+(Hide words)
+afraid (1)
+against (1)
+away (2)
+finger (3)
+hurt (1)
+loud (1)
+opposite (1)
+pushed (1)
+quiet (1)
+trying (1)
+high (1)
+highest (2)
+hurt (1)
+jumped (2)
+look after (1)
+notebook (1)
+pillow (3)
+quickly (1)
+rich (1)
+round (1)
+stood (2)
+such (1)
+top (1)
+turned (1)
+
+B17 types / 10 tokens 
+6.03% / 3.73% 
+(Hide words)
+balcony (1)
+feed (1)
+ground (1)
+keep a (1)
+onto (1)
+tin (2)
+wings (2)
+balcony (2)
+completely (1)
+feed (1)
+ground (2)
+hero (1)
+protect (1)
+wings (2)
+
+B22 types / 2 tokens 
+1.72% / 0.75% 
+(Hide words)
+gripped (1)
+making a (1)
+lives with
+
+C12 types / 2 tokens 
+1.72% / 0.75% 
+(Hide words)
+gripping (1)
+index (1)
+
+C21 types / 1 tokens 
+0.86% / 0.37% 
+(Hide words)
+doorway (1)
+
+Unlisted6 types / 23 tokens 
+5.17% / 8.58% 
+(Hide words)
+canada (2) (Amend)
+claws (2) (Amend)
+crow (11) (Amend)
+crows (6) (Amend)
+flapping (1) (Amend)
+russian (1) (Amend)
+crow (5) (Amend)
+crows (3) (Amend)
+flapped (1) (Amend)
+flapping (1) (Amend)

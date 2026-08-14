@@ -1,0 +1,8 @@
+span {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+span:hover {
+  background-color: #fcc;
+}

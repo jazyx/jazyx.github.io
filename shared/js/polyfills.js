@@ -1,0 +1,34 @@
+/** polyfills.js **
+ *
+ * 
+**/
+
+
+
+;(function polyfillsLoaded(){
+  "use strict"
+
+  // http://stackoverflow.com/a/4314050/1927589
+  if (!String.prototype.splice) {
+    /**
+     * The splice() method changes the content of a string by
+     * removing a range of characters and/or adding new characters.
+     *
+     * @this {String}
+     * @param {number} start Index at which to start changing the string.
+     * @param {number} delCount An integer indicating the number of old chars to remove.
+     * @param {string} newSubStr The String that is spliced in.
+     * @return {string} A new string with the spliced substring.
+     */
+    String.prototype.splice = function(
+      start = 0
+    , delCount = 0
+    , newSubStr = "") {
+      return this.slice(0, start)
+           + newSubStr
+           + this.slice(start + Math.abs(delCount))
+    }
+  }
+
+  
+})()
