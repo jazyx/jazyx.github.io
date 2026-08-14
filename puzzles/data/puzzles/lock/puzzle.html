@@ -1,0 +1,57 @@
+<link href="data/puzzles/lock/vmin.css" type="text/css" rel="stylesheet" />
+ 
+<article>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+    <defs>
+      <polygon id="up-arrow" points='0,866 1000,866 500,0' />
+      <polygon id="down-arrow" points='0,0 1000,0 500,866' />
+    </defs>
+  </svg>
+
+  <div id="viewport"></div>
+  <img src="data/puzzles/lock/img/kestrel.png">
+  <hr>
+
+  <div class="arrows">
+    <div class="up">
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#up-arrow"></use>
+      </svg>
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#up-arrow"></use>
+      </svg>
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#up-arrow"></use>
+      </svg>
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#up-arrow"></use>
+      </svg>
+    </div>
+    <div class="down">
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#down-arrow"></use>
+      </svg>
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#down-arrow"></use>
+      </svg>
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#down-arrow"></use>
+      </svg>
+      <svg viewBox="0 0 1000 866">
+        <use xlink:href="#down-arrow"></use>
+      </svg>
+    </div>
+  </div>
+  <div class="progress">
+    <div class="complete"></div>
+  </div>
+</article>
+
+<script src="data/puzzles/lock/viewport-units-buggyfill.js"></script>
+<script src="data/puzzles/lock/viewport-units-buggyfill.hacks.js"></script>
+<script>
+  window.viewportUnitsBuggyfill.init({
+    refreshDebounceWait: 50,
+    hacks: window.viewportUnitsBuggyfillHacks
+  });
+</script>
