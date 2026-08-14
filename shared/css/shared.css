@@ -1,0 +1,84 @@
+/* support/texts/shared.css */
+
+html {
+  background-color: #000;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  max-width: 800px;
+  min-width: 200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+article {
+  box-sizing: content-box;
+  border: 1em solid #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding-top: 1em;
+  font-style: italic;
+}
+
+span {
+  background-color: #ffd;
+}
+
+h1, h1 span {
+  color: #000!important;
+}
+
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.selectable {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text; 
+}
+
+@media print {
+  div#markup, #show-markup {
+    display: none;
+  }
+
+  figure {
+    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid; /* or 'auto' */
+  }
+
+  figure.reduce.to50percent img {
+    width: 50%;
+  }
+
+  figure.reduce.to75percent img {
+    width: 75%;
+  }
+
+  figure.reduce.to85percent img {
+    width: 85%;
+  }
+}
