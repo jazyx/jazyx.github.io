@@ -121,3 +121,22 @@ h4 img {
   width: 6em;
   display: block;
 }
+
+article {
+  height: 100%;
+  max-width: 600px;
+
+  h1 {
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  figure {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 0.75em;
+  }
+}
