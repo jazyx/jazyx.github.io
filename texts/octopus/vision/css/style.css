@@ -1,0 +1,32 @@
+
+div,
+img {
+  position: absolute;
+}
+
+div#octopus {
+  left: 512px;
+}
+
+img {
+  top: 0;
+  left:0;
+  pointer-events: none
+}
+
+input[type=range] {
+  top: 520px;
+  width: 1012px; 
+}
+
+div#cycle {
+  top: 560px;
+  width: 1024px;
+  height: 32px;
+
+  background: #fff; /* Old browsers */
+  background: -moz-linear-gradient(left, #ff8080 0%, #8080ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff8080 0%,#8080ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff8080 0%,#8080ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8080', endColorstr='#8080ff',GradientType=1 ); /* IE6-9 */
+}
