@@ -7,10 +7,13 @@ const strip = document.getElementById("strip")
 const image = document.querySelector("#frame img")
 const items = document.getElementById("items")
 const check = document.getElementById("check")
+const arrows = document.getElementById("arrows")
+let imageArray = []
 
 
 items.addEventListener("click", selectFile)
 strip.addEventListener("click", showInFrame)
+arrows.addEventListener("click", adjacentImage)
 
 ;(function getJSON() {
   fetch("./json/index.json")
@@ -25,7 +28,6 @@ strip.addEventListener("click", showInFrame)
 
 
 function createMenu(json) {
-  console.log("json:", json)
   json.forEach( file => {
     // "json/colours.json"
     let name = file.replace("json/", "")
@@ -69,9 +71,10 @@ function getImages(file, first) {
 
 
 function fillStrip(images, first) {
+  imageArray = images
   while(strip.firstChild){
     strip.removeChild(strip.firstChild)
-  } 
+  }
   images.forEach(src => {
     const img = document.createElement("img")
     img.src = src
@@ -92,4 +95,38 @@ function showInFrame({target}) {
 }
 
 
-// getImages("./colours.json")
+function adjacentImage({ target }) {
+  const id = target.id
+  const direction = id === "previous" ? -1 : 1
+  const name = getFileName(image.src)
+
+  const index = imageArray.findIndex(src => (
+    getFileName(src) === name
+  ))
+
+  const maxIndex = imageArray.length - 1
+  let adjacent = index + direction
+  if (adjacent < 0) {
+    adjacent = maxIndex
+  } else if (adjacent >= maxIndex) {
+    adjacent = 0
+  }
+
+  const src = imageArray[adjacent]
+  showInFrame({ target: { src }})
+
+  const thumbs = Array.from(strip.children)
+  const thumb = thumbs.find(img => (
+    getFileName(img.src) === name
+  ))
+  const options = {
+    inline: "center",
+    block: "center"
+  }
+  thumb.scrollIntoView(options)
+}
+
+
+function getFileName(path) {
+  return path.replace(/^.+\//, "")
+}

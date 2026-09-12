@@ -9,7 +9,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   --light: #ddd;
   --mid: #888;
   --dark: #222;
@@ -30,6 +30,7 @@ body {
 
   color: var(--light);
   background-color: var(--dark);
+  overflow: hidden;
 }
 
 
@@ -95,6 +96,7 @@ button.primary:active:hover,
 
 main {
   --strip: 10vmin;
+  --size: calc(var(--strip) - 16px);
   --frame: min((100vw - var(--strip)), 100vh);
   display: flex;
   justify-content: center;
@@ -107,7 +109,11 @@ main {
   overflow: auto;
 
   img {
-    width: var(--strip);
+    width: var(--size);
+    height: var(--size);
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
   }
 }
 
@@ -158,6 +164,26 @@ main {
   }
 }
 
+#arrows {
+  position: absolute;
+  top: 50vh;
+  left: calc((100vw - var(--frame) - var(--strip)) / 2);
+  width: var(--frame);
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+
+  button {
+    background-color: transparent;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: #8886;
+      opacity: 1
+    }
+  }
+}
+
 @media (max-aspect-ratio: 1/1) {
   main {
     --frame: min((100vh - var(--strip)), 100vw);
@@ -167,5 +193,9 @@ main {
     width: 100vw;
     height: var(--strip);
     display: flex;
+  }
+  #arrows {
+    left: calc((100vw - var(--frame)) / 2);
+
   }
 }
