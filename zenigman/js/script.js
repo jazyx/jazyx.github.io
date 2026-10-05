@@ -1,6 +1,6 @@
 /** script.js **
  *
- * 
+ *
 **/
 
 
@@ -47,7 +47,7 @@
       if (target.tagName !== "A") {
         return
       }
-      
+
       let divId = target.href.split("#").pop()
 
 
