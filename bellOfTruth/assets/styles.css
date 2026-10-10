@@ -1,0 +1,36 @@
+body {
+  background-color: #222;
+  color: #ddd;
+  max-width: 600px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#story {
+  height: 100%;
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  margin-right: 0.5em;
+}
+
+div.disabled {
+  pointer-events: none;
+  & button {
+    background-color: #fff6;
+  }
+}
+
+button {
+  display: block;
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  width: 100%;
+  cursor: pointer;
+}
