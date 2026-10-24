@@ -19,8 +19,8 @@ const DOTS_REGEX = /(.*)\s+?(\.\.\.)/
 
 
 function start(json) {
-  let level = parseInt(match[1]) || 0
-  let depth = parseInt(match[2]) || 0
+  let level = match ? parseInt(match[1]) || 0 : 0
+  let depth = match ? parseInt(match[2]) || 0 : 0
 
   generatePage()
 
