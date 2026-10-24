@@ -220,7 +220,7 @@
     { "text": "This is the stall ...",
       "src": "anning/stall.webp"
     },
-    { "text": "where she showed the fossils ...",
+    { "text": "where she showed fossils ...",
       "src": "anning/shows.jpg"
     },
     { "text": "that she found in the stones ...",
@@ -260,42 +260,67 @@
       "src": "anning/shows.jpg"
     }
   ],
-  [ { "text": "You know the word \"dinosaur\".",
-      "src": "anning/dinosaur.jpg"
-    }
-  ],
   [
-    { "text": "This is the man ...",
+    { "text": "This is the museum ...",
+      "src": "anning/museum.webp"
+    },
+    { "text": "that was built by the man ...",
       "src": "anning/owen.webp"
     },
-    { "text": "who first said the word \"dinosaur\".",
-      "src": "anning/word.webp"
-    }
-  ],
-  [
-    { "text": "This is the man ...",
-      "src": "anning/owen.webp"
+    { "text": "to show the fossils ...",
+      "src": "anning/icthyosaur.webp"
     },
-    { "text": "who said the word \"dinosaur\" ...",
-      "src": "anning/word.webp"
+    { "text": "that the girl found in the stones ...",
+      "src": "anning/broken.webp"
     },
-    { "text": "because of the stones ...",
-      "src": "anning/stall.webp"
-    },
-    { "text": "that the girl found ...",
-      "src": "anning/walking.webp"
-    },
-    { "text": "with her dog ...",
-      "src": "anning/tray.jpg"
-    },
-    { "text": "when they went to the beach ...",
+    { "text": "that lie on the beach ...",
       "src": "anning/beach.webp"
     },
     { "text": "beside the sea ...",
       "src": "anning/sea.webp"
     },
-    { "text": "at Lyme Regis ...",
+    { "text": "at Lyme Regis",
       "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the word ...",
+      "src": "anning/word.webp"
+    },
+    { "text": "that was made by the man ...",
+      "src": "anning/owen.webp"
+    },
+    { "text": "who built the museum ...",
+      "src": "anning/museum.webp"
+    },
+    { "text": "to show the fossils ...",
+      "src": "anning/icthyosaur.webp"
+    },
+    { "text": "that the girl found in the stones ...",
+      "src": "anning/broken.webp"
+    },
+    { "text": "that lie on the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the girl ...",
+      "src": "anning/walking.webp"
+    },
+    { "text": "who walked on the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "and broke stones with a hammer ...",
+      "src": "anning/broken.webp"
+    },
+    { "text": "to find fossils of dinosaurs ...",
+      "src": "anning/plipli.jpg"
     },
     { "text": "Mary Anning",
       "src": "anning/anning.webp"

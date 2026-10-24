@@ -3,6 +3,9 @@
  */
 
 
+const REGEX = /#(\d+)?\/?(\d+)?/
+const match = REGEX.exec(location.hash)
+
 const main = document.getElementsByTagName("main")[0]
 
 fetch('./images.json')
@@ -12,8 +15,8 @@ fetch('./images.json')
 
 const DEPOT = "https://raw.githubusercontent.com/jazyx/depot/refs/heads/main/"
 const DOTS_REGEX = /(.*)\s+?(\.\.\.)/
-let level = 0
-let depth = 0
+let level = parseInt(match[1]) || 0
+let depth = parseInt(match[2]) || 0
 
 
 
