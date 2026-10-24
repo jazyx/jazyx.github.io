@@ -33,15 +33,17 @@ body {
 }
 
 main {
+  --size: min(800px, 100vw);
   text-align: center;
+  width: var(--size);
 
   span {
     margin-right: 0.5em;
   }
 
   img {
-    width: 800px;
-    height: 800px;
+    width: var(--size);
+    height: var(--size);
     object-fit: contain;
   }
 }
