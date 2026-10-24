@@ -15,13 +15,12 @@ fetch('./images.json')
 
 const DEPOT = "https://raw.githubusercontent.com/jazyx/depot/refs/heads/main/"
 const DOTS_REGEX = /(.*)\s+?(\.\.\.)/
-let level = parseInt(match[1]) || 0
-let depth = parseInt(match[2]) || 0
 
 
 
 function start(json) {
-  console.log("json:", json)
+  let level = parseInt(match[1]) || 0
+  let depth = parseInt(match[2]) || 0
 
   generatePage()
 
