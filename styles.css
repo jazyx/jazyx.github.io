@@ -101,13 +101,25 @@ a {
 }
 
 header {
+  text-align: center;
+
   h1,
   p {
     margin: 0;
-    text-align: center;
   }
 
   border-bottom: 1px solid white;
+  
+  svg {
+    width: 32px;
+    height: 32px;
+
+    &.fill {
+      width: 320px;
+      height: 320px;
+    }
+  }
+
 }
 
 main {

@@ -1,0 +1,304 @@
+[
+  [
+    { "text": "This is the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "These are the stones ...",
+      "src": "anning/stones.webp"
+    },
+    { "text": "that lie on the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the cliff ...",
+      "src": "anning/cliff.jpg"
+    },
+    { "text": "above the stones ...",
+      "src": "anning/stones.webp"
+    },
+    { "text": "that lie on the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "These are the rocks ...",
+      "src": "anning/rocks.webp"
+    },
+    { "text": "that fall from the cliff ...",
+      "src": "anning/cliff.jpg"
+    },
+    { "text": "and break into stones ...",
+      "src": "anning/stones.webp"
+    },
+    { "text": "that lie on the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the path ...",
+      "src": "anning/path.webp"
+    },
+    { "text": "that goes up the cliff ...",
+      "src": "anning/cliff.jpg"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the village ...",
+      "src": "anning/village.jpg"
+    },
+    { "text": "at the top of the path ...",
+      "src": "anning/path.webp"
+    },
+    { "text": "that goes up the cliff ...",
+      "src": "anning/cliff.jpg"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is a house ...",
+      "src": "anning/house.jpg"
+    },
+    { "text": "in the village ...",
+      "src": "anning/village.jpg"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis",
+      "src": "anning/lyme-regis.webp"
+    }
+  ],
+  [
+    { "text": "This is the girl ...",
+      "src": "anning/mary.webp"
+    },
+    { "text": "who lived in the house ...",
+      "src": "anning/house.jpg"
+    },
+    { "text": "in the village ...",
+      "src": "anning/village.jpg"
+    },
+    { "text": "beside the sea.",
+      "src": "anning/sea.webp"
+    }
+  ],
+  [
+    { "text": "This is the dog ...",
+      "src": "anning/tray.jpg"
+    },
+    { "text": "that walked with the girl ...",
+      "src": "anning/mary.webp"
+    },
+    { "text": "along the path ...",
+      "src": "anning/path.webp"
+    },
+    { "text": "down to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "where the stones lie.",
+      "src": "anning/stones.webp"
+    }
+  ],
+  [
+    { "text": "This is the basket ...",
+      "src": "anning/basket.webp"
+    },
+    { "text": "she took with the dog ...",
+      "src": "anning/tray.jpg"
+    },
+    { "text": "when she went on the path ...",
+      "src": "anning/path.webp"
+    },
+    { "text": "down to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "where the stones lie.",
+      "src": "anning/stones.webp"
+    }
+  ],
+  [
+    { "text": "This is the hammer ...",
+      "src": "anning/hammer.webp"
+    },
+    { "text": "she took with the basket ...",
+      "src": "anning/basket.webp"
+    },
+    { "text": "when she walked with her dog ...",
+      "src": "anning/walking.webp"
+    },
+    { "text": "down to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "where the stones lie.",
+      "src": "anning/stones.webp"
+    }
+  ],
+  [
+    { "text": "These are the stones ...",
+      "src": "anning/broken.webp"
+    },
+    { "text": "that she broke with the hammer ...",
+      "src": "anning/hammer.webp"
+    },
+    { "text": "when she walked with her dog ...",
+      "src": "anning/walking.webp"
+    },
+    { "text": "down to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "where the stones lie.",
+      "src": "anning/stones.webp"
+    }
+  ],
+  [
+    { "text": "These are the fossils ...",
+      "src": "anning/fossils.jpg"
+    },
+    { "text": "that she found in the stones ...",
+      "src": "anning/broken.webp"
+    },
+    { "text": "that she broke with the hammer ...",
+      "src": "anning/hammer.webp"
+    },
+    { "text": "when she walked with her dog ...",
+      "src": "anning/walking.webp"
+    },
+    { "text": "down to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "where the stones lie.",
+      "src": "anning/stones.webp"
+    }
+  ],
+  [
+    { "text": "This is the stall ...",
+      "src": "anning/stall.webp"
+    },
+    { "text": "where she showed the fossils ...",
+      "src": "anning/shows.jpg"
+    },
+    { "text": "that she found in the stones ...",
+      "src": "anning/broken.webp"
+    },
+    { "text": "that she broke with the hammer ...",
+      "src": "anning/hammer.webp"
+    },
+    { "text": "when she walked with her dog ...",
+      "src": "anning/walking.webp"
+    },
+    { "text": "down to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "where the stones lie.",
+      "src": "anning/stones.webp"
+    }
+  ],
+  [
+    { "text": "This is a stone that the girl found.",
+      "src": "anning/icthyosaur.webp"
+    }
+  ],
+  [
+    { "text": "These are more stones that the girl found.",
+      "src": "anning/plipli.jpg"
+    }
+  ],
+  [
+    { "text": "This is the man ...",
+      "src": "anning/owen.webp"
+    },
+    { "text": "who bought the stones ...",
+      "src": "anning/icthyosaur.webp"
+    },
+    { "text": "that the girl found.",
+      "src": "anning/shows.jpg"
+    }
+  ],
+  [ { "text": "You know the word \"dinosaur\".",
+      "src": "anning/dinosaur.jpg"
+    }
+  ],
+  [
+    { "text": "This is the man ...",
+      "src": "anning/owen.webp"
+    },
+    { "text": "who first said the word \"dinosaur\".",
+      "src": "anning/word.webp"
+    }
+  ],
+  [
+    { "text": "This is the man ...",
+      "src": "anning/owen.webp"
+    },
+    { "text": "who said the word \"dinosaur\" ...",
+      "src": "anning/word.webp"
+    },
+    { "text": "because of the stones ...",
+      "src": "anning/stall.webp"
+    },
+    { "text": "that the girl found ...",
+      "src": "anning/walking.webp"
+    },
+    { "text": "with her dog ...",
+      "src": "anning/tray.jpg"
+    },
+    { "text": "when they went to the beach ...",
+      "src": "anning/beach.webp"
+    },
+    { "text": "beside the sea ...",
+      "src": "anning/sea.webp"
+    },
+    { "text": "at Lyme Regis ...",
+      "src": "anning/lyme-regis.webp"
+    },
+    { "text": "Mary Anning",
+      "src": "anning/anning.webp"
+    }
+  ]
+]
