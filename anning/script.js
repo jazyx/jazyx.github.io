@@ -29,7 +29,7 @@ function start(json) {
 
     const sequence = json[level]
     const frame = sequence[depth]
-    const { text, src } = frame
+    const { text, src, link } = frame
 
 
     while (main.firstChild) {
@@ -55,7 +55,14 @@ function start(json) {
       main.append(p)
 
     } else {
-      p.textContent = text
+      if (link) {
+        const a = document.createElement("a")
+        a.href = link
+        a.textContent = text
+        p.append(a)
+      } else {
+        p.textContent = text
+      }
       button.textContent = "Next"
       button.onclick = () => {
         level += 1
@@ -63,7 +70,10 @@ function start(json) {
         generatePage()
       }
       main.append(p)
-      main.append(button)
+
+      if (level < json.length - 1) {
+        main.append(button)
+      }
     }
 
   }
