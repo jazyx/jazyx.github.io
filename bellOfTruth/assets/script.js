@@ -50,7 +50,7 @@ function tellStory(storyMap) {
     
     if (!choices) {
       choices = [{
-        "text": "That's what happend in one universe. Play again?",
+        "text": "That's what happened in one universe. Play again?",
         "action": "reload"
       }]
     }
