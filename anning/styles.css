@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  --size: min(800px, 100vw);
+  --size: min(80vh, 100vw);
   text-align: center;
   width: var(--size);
 
